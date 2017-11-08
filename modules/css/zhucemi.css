@@ -1,0 +1,87 @@
+.shezhimi{
+    width:100%;
+    height:100%;
+}
+.shezhimi .contss {
+    width: 100%;
+    height: auto;
+    margin: 3.75rem auto
+}
+
+.shezhimi .contss .tittle {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1rem;
+    color: #5C5C5C;
+    line-height: 1rem
+}
+
+.shezhimi .contss .tittle p {
+    width: 100%;
+    line-height: 1.875rem
+}
+
+.shezhimi .contss .tittle p:nth-child(2) {
+    color: #CC9F68
+;}
+
+.shezhimi .key {
+    font-size: 0.75rem;
+    color: #B88755;
+    line-height: 2.5rem;
+    width: 6.25rem;
+    display: none
+}
+
+.shezhimi .inp div input {
+    width: 52%;
+}
+
+.shezhimi .inp div .lim {
+    width: 66%
+}
+
+.shezhimi .inp div .text {
+    display: none
+}
+.shezhimi .p{
+    font-size: 0.75rem;
+}
+.shezhimi .inp div span {
+    color: #CC9F68
+}
+.shezhimi .inp div .huoyan {
+    width: 31%;
+    color: #D8AA5A;
+    display: inline-block;
+    background: 0 0;
+    border: none;
+    outline: 0;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0.75rem
+}
+
+.shezhimi .btjsd {
+    margin-top: 1.0625rem;
+    background: #b4b4b4 !important;
+    color: #fff !important;
+    padding:0;
+    height:2.8rem;
+}
+
+.shezhimi .btjsds {
+    background: url("https://imagecdn.xinyongjinku.com/wechat/modules/images/button@v1.1.0.png") center no-repeat  !important;
+    background-size: cover !important;
+}
+
+
+
+.p {
+    width: 75%;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    margin: 0 auto
+}

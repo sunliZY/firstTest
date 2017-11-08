@@ -1,0 +1,53 @@
+.zhezhao {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+.zhezhao .pop {
+    width: 100%;
+    height: 13rem;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 3.2rem;
+}
+
+.zhezhao .pop .popslid li, .zhezhao .pop .tittle {
+    width: 100%;
+    line-height: 2.75rem;
+    text-align: center
+}
+
+.zhezhao .pop .tittle {
+    height: 2.75rem;
+    display: flex;
+    font-size: 0.875rem;
+    background: rgba(238, 238, 238, 0.21)
+}
+
+.zhezhao .pop .tittle span {
+    flex: 1
+;}
+
+.zhezhao .pop .tittle span:nth-child(2) {
+    flex: 4
+;}
+
+.zhezhao .pop .popslid {
+    width: 100%;
+    height: 10rem;
+    overflow: scroll
+}
+
+.zhezhao .pop .popslid li {
+    height: 2.75rem;
+    box-shadow: -0.0625rem -0.0625rem 0.1875rem #eee
+}
+
+.zhezhao .pop .popslid .ost {
+    background: rgba(93, 108, 142, 0.35);
+    color: #fff
+}

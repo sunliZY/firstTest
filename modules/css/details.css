@@ -1,0 +1,23 @@
+.details h3{
+	font-size: 0.75rem;
+	color: #333333;
+	text-align: center;
+	height: 3.5rem;
+	line-height: 4.2rem;
+}
+.details .time{
+	text-align: center;
+	font-size: 0.75rem;
+	color: #5C5C5C;
+	height:1.5rem;
+	line-height: 1rem;
+}
+.details .content{
+	width: 90%;
+	margin: 0 auto;
+}
+.details .content p{
+	font-size: 0.75rem;
+	color: #5C5C5C;
+	line-height: 1.5rem;
+}

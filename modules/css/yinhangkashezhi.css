@@ -1,0 +1,79 @@
+.yinhangkashezhi dl {
+    width: 21.875rem;
+    height: 5.625rem;
+    display: flex;
+    background: #FFF;
+    box-shadow: 0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.05);
+    margin: 0.625rem auto
+}
+.yinhangkashezhi dl dt {
+    width: 3.4375rem;
+    height: 5.625rem
+}
+.yinhangkashezhi dl dt span {
+    display: block;
+    width: 2.125rem;
+    height: 2.125rem;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 1.0625rem 0 0 0.625rem
+}
+.yinhangkashezhi dl dd {
+    width: 18.5rem;
+    border: 0.2px solid transparent
+}
+.yinhangkashezhi dl dd p {
+    font-size: 0.875rem;
+    color: #5C5C5C;
+    margin-top: 0.6875rem
+}
+
+.yinhangkashezhi .zhezhao1{
+	display: none;
+	position: fixed;
+	left: 0;
+	top:0;
+	zoom: 1;
+	background: #2F2E2E;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+	
+.yinhangkashezhi .cont1{
+	position: relative;
+	display: none;
+    width: 80%;
+    background: #FFFFFF;
+    z-index: 9999999;
+    margin: 3rem auto;
+    padding-left: 1rem;
+    border-radius: 0.8rem;
+}
+
+.yinhangkashezhi .cont1 span img {
+	position: absolute;
+    width: 1.125rem;
+    top: 0.2rem;
+    right: 0.2rem;
+    margin: 0.75rem 0.6875rem 0.6875rem 1.125rem;
+}
+.yinhangkashezhi .cont1 h3{
+    text-align: center;
+    height: 2.3rem;
+    line-height: 3.3rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.yinhangkashezhi .cont1 p{
+	line-height: 2.3rem;
+}
+
+.yinhangkashezhi .cont1:nth-child(2){
+	height: 2rem;
+	line-height: 2rem;
+}

@@ -1,0 +1,133 @@
+.jiekuanxinxi{
+    width: 100%;
+    background: #fafafa;
+    font-size: 0.9rem;
+    padding-bottom: 3rem;
+}
+.jiekuanxinxi .ullist {
+
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+.jiekuanxinxi .ullist li {
+    width: 90%;
+    height: 2.5625rem;
+    line-height: 2.5625rem;
+    margin:0 auto;
+    display: flex;
+    border-top:1px solid #fafafa;
+}
+.jiekuanxinxi .ullist li span{
+    flex: 1;
+}
+.jiekuanxinxi .ullist li span:nth-child(1) {
+
+    text-align: left;
+    color: #999;
+}
+.jiekuanxinxi .ullist li span:nth-child(2) {
+
+    text-align: right;
+}
+
+.jiekuanxinxi .start_show{
+    width: 100%;
+    height: 1.5rem;
+    line-height: 2rem;
+    background: 0 0;
+    font-size: 0.875rem;
+    text-align: left;
+    text-indent: 1rem;
+    color:#C9a358;
+}
+.jiekuanxinxi .conts {
+    width: 100%;
+    padding:1rem;
+    box-sizing: border-box;
+    margin-top: 0.625rem;
+    background: #fff;
+    display: inline-block;
+}
+.jiekuanxinxi .conts p{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    display: flex;
+}
+.jiekuanxinxi .conts p span{
+    flex:1;
+}
+.jiekuanxinxi .conts p span:nth-child(1){
+    text-align: left;
+    color: #ccc;
+}
+.jiekuanxinxi .conts p span:nth-child(2){
+    text-align: right;
+}
+.jiekuanxinxi .conts ol{
+    width: 100%;
+    border-top: 0.0625rem solid #D8D8D8;
+    margin: 0 auto 0;
+    font-size: 0.9rem;
+    color: #ccc;
+    padding-top: 0.25rem;
+}
+.jiekuanxinxi .conts ol li{
+    float: left;
+    width: 50%;
+    height: 2rem;
+    text-align: left;
+    line-height: 2rem;
+    display: flex;
+}
+.jiekuanxinxi .conts ol li span:nth-child(1){
+    width: 52%;
+}
+.jiekuanxinxi .conts ol li span:nth-child(2){
+    width: 44%;
+    text-align: left;
+    color: #575757;
+}
+.jiekuanxinxi h4 {
+    background: #FFF;
+    box-shadow: 0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.05);
+    height: 2.625rem;
+    line-height: 2.625rem;
+    border-top: 0.01rem solid #D8D8D8;
+    border-bottom: 0.01rem solid rgba(216, 216, 216, 0.78);
+    text-indent: 1.125rem;
+    font-size: 0.875rem;
+    color: #5C5C5C;
+}
+.jiekuanxinxi .coupon_info{
+    background: #FFF;
+    box-shadow: 0 -0.0625rem 0 0 #EDEDED, 0 0.0625rem 0 0 #EDEDED;
+    width: 100%;
+    height: 2.5625rem;
+    line-height: 2.5625rem;
+    display: flex;
+    font-size: 0.75rem;
+    border-top:1px solid #fafafa;
+}
+.jiekuanxinxi .coupon_info span {
+    justify-content: space-between
+}
+.jiekuanxinxi .coupon_info span{
+    flex: 1;
+}
+.jiekuanxinxi .coupon_info span:nth-child(2) {
+    flex: 5;
+}
+.jiekuanxinxi .coupon_info span:nth-child(2) b {
+    margin-left: 0.5rem;
+    color: #DA3B3B;
+}
+.jiekuanxinxi .coupon_info span img {
+    width: 1.4rem;
+    margin: 0.75rem 0 0.6875rem 1.125rem;
+}
+.jiekuanxinxi .bottoms h1{
+    height:2rem;
+}
+

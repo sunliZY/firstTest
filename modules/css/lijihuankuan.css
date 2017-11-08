@@ -1,0 +1,254 @@
+.lijihuankuan {
+  width: 100%;
+  height: 100%;
+}
+.lijihuankuan .dlsts {
+  width: 100%;
+  height: 9.5rem;
+  display: flex;
+  background: #fff;
+  position: relative;
+  margin-bottom: 0.8rem;
+}
+.lijihuankuan .dlsts .coupon_ljh{
+  display: flex;
+  position: absolute;
+  top:7.2rem;
+  left: 1.7rem;
+  height: 2rem;
+  line-height: 3rem;
+  font-size: 0.75rem;
+}
+.lijihuankuan .dlsts .coupon_ljh span{
+  flex: 1;
+  line-height: 1.78rem;
+}
+.lijihuankuan .dlsts .coupon_ljh img{
+  width: 1.25rem;
+  height: 1.075rem;
+  margin: 0.3rem;
+}
+.lijihuankuan .dlsts div {
+  flex: 1;
+  text-align: center;
+}
+.lijihuankuan .dlsts div p {
+  font-size: 0.875rem;
+  color: #5C5C5C;
+  margin-top: 2.5rem;
+}
+.lijihuankuan .dlsts div span {
+  font-size: 2.25rem;
+  color: #CC9F68;
+  display: block;
+  margin-top: 1.25rem;
+}
+.lijihuankuan .dlsts div span i {
+  font-size: 1.875rem;
+}
+.lijihuankuan .dlsts div .yu {
+  color: #FF4949 !important;
+}
+.lijihuankuan .ulss {
+  width: 100%;
+}
+
+.lijihuankuan .coupon_ljh_2{
+  background: #FFF;
+  box-shadow: 0 -0.0625rem 0 0 #EDEDED, 0 0.0625rem 0 0 #EDEDED;
+  width: 100%;
+  height: 2.5625rem;
+  line-height: 2.5625rem;
+  display: flex;
+  font-size: 0.75rem;
+  border-top:1px solid #fafafa;
+}
+.lijihuankuan .coupon_ljh_2 span {
+  justify-content: space-between;
+  flex: 1;
+}
+.lijihuankuan .coupon_ljh_2 span:nth-child(1){
+  text-indent: -0.25rem;
+}
+.lijihuankuan .coupon_ljh_2 span:nth-child(2) {
+  flex: 1;
+  text-indent: -5.3rem;
+}
+.lijihuankuan .coupon_ljh_2 span img {
+  width: 1.125rem;
+  margin: 0.75rem 0.6875rem 0.6875rem 0.125rem
+}
+
+.lijihuankuan .ulss li {
+  width: 100%;
+  height: 2.5625rem;
+  line-height: 2.5625rem;
+  background: #FFF;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.05), 0 -0.0625rem 0 0 #EDEDED, 0 0.0625rem 0 0 #EDEDED;
+  display: flex;
+}
+.dlsts .tip_color{
+  color:#FF4949 !important;
+
+}
+.lijihuankuan .ulss li span:nth-child(1){
+  text-indent: 0.75rem;
+}
+.lijihuankuan .ulss li span:nth-child(3){
+  text-align: right;
+  padding-right: 0.5rem;
+}
+.lijihuankuan .ulss li span {
+  flex: 1;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+.lijihuankuan .ulss li span img {
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.075rem;
+  margin-bottom: -0.25rem;
+}
+.lijihuankuan .ulss .liss {
+  margin: 0.625rem auto;
+}
+.lijihuankuan .tankuang,
+.lijihuankuan .qiehuanka {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.45);
+  display: none;
+}
+.lijihuankuan .tankuang .con {
+  width: 16.5rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(198, 198, 198, 0.66);
+  border: 2px solid #999;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+.lijihuankuan .tankuang .con .divs {
+  width: 95%;
+  margin: 0 auto;
+  height: auto;
+}
+.lijihuankuan .tankuang .con p {
+  width: 100%;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  display: flex;
+}
+
+.lijihuankuan .tankuang .con p span {
+  flex: 1;
+}
+.lijihuankuan .tankuang .con p span:nth-child(2) {
+  flex: 4;
+  font-size: 0.8rem;
+  color: #868686;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+.lijihuankuan .tankuang .con h2 {
+  width: 100%;
+  height: 2.5rem;
+  margin: 0 auto;
+  line-height: 2.5rem;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.8rem;
+  color: #5C5C5C;
+}
+.lijihuankuan .tankuang .con .yan {
+  width: 100%;
+  height: 2.5rem;
+  margin: 0.5rem auto;
+  line-height: 2.5rem;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+.lijihuankuan .tankuang .con .yan span {
+  flex: 1;
+  text-align: center;
+  width: 26%;
+}
+.lijihuankuan .tankuang .con .yan input {
+  width: 45%;
+  border: none;
+  outline: 0;
+}
+.lijihuankuan .tankuang .con h3 {
+  border-bottom: 1px solid #ccc;
+  height: 2rem;
+  line-height: 2rem;
+}
+.lijihuankuan .tankuang .con button {
+  width: 100%;
+  height: 2.5rem;
+  padding: 0;
+  font-size: 1rem;
+  display: block;
+  margin: 0 auto;
+  background: #CC9F68;
+  border-radius: 8px;
+}
+/*切换银行卡时 页面的样式*/
+.qiehuanka .qiehuan {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+.qiehuanka .qiehuan .tittle {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  display: flex;
+  font-size: 0.75rem;
+  background: #fff;
+}
+.qiehuanka .qiehuan .tittle span {
+  flex: 1;
+}
+.qiehuanka .qiehuan .tittle span:nth-child(2) {
+  flex: 2;
+}
+.qiehuanka .qiehuan .tittle span:nth-child(1) img {
+  width: 1.125rem;
+  margin: 0.75rem 0 0.6875rem -1.875rem;
+}
+.qiehuanka .qiehuan .list li {
+  background: #FFF;
+  box-shadow: 0 -0.0625rem 0 0 #EDEDED, 0 0.0625rem 0 0 #EDEDED;
+  width: 100%;
+  height: 2.5625rem;
+  line-height: 2.5625rem;
+  display: flex;
+  font-size: 0.75rem;
+}
+.qiehuanka .qiehuan .list li span {
+  justify-content: space-between;
+}
+.qiehuanka .qiehuan .list li span img {
+  width: 1.125rem;
+  margin: 0.75rem 0.6875rem 0.6875rem 1.125rem;
+}
+.qiehuanka .qiehuan .list li span:nth-child(2) {
+  flex: 3;
+}
+.qiehuanka .qiehuan .list li:nth-child(3) span:nth-child(2){
+	text-align: center;
+}

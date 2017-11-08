@@ -1,0 +1,35 @@
+<div class="changeBank">
+    <div class="head"></div>
+    <div class="tittle">
+              请务必绑定持卡人本人的银行卡
+    </div>
+
+    <div class="conts">
+        <ul >
+        	<li><span>持卡人</span> <span></span><i class="littleTip">!</i></li>
+            <li><span>银行卡号</span>  <input type="text" placeholder="请输入银行卡号" onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');" id="kahao"><i></i></li>
+            <li><span>银行卡名称</span>  <input type="text" placeholder="请选择发卡银行" disabled><i></i></li>
+            <li><span>预留手机号码</span>  <input type="text" placeholder="请输入预留手机号" onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');" id="yph"><i></i></li>
+            <li><span>验证码</span>  <input type="text" placeholder="请输入预留手机号验证码" onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');" class="yanzhengs"><button class="huoyan">获取验证码</button></li>
+        </ul>      
+    </div>
+    <h1 class="check"><em></em><span>同意<i onclick="window.location.href='#addBank'">《账户代扣款协议》</i></span></h1>
+    <div class="button">
+        <button class="jiaka">更换银行卡</button>
+    </div>
+    <div class="zhichikas" onclick="window.location.href='#zhichika'">
+        查看支持银行
+    </div>
+    <!--弹框提示-->
+   <div class="mBox">
+        <div class="xbox">
+           <h2>持卡人说明</h2>
+            <p>
+                                     为保证账户资金安全，只能绑定<br/>认证用户本人的银行卡
+            </p>         
+            <p class="know">知道了</p>
+        </div>
+        
+   </div>
+    
+</div>

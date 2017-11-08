@@ -1,0 +1,96 @@
+.share{
+	background: url("https://imagecdn.xinyongjinku.com/wechat/modules/images/shareBg@v1.1.1.png") repeat;
+	height: 100%;
+}
+.share .box{
+	padding: 0.5rem;
+}
+.share .content p:nth-child(1){
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 4rem;
+}
+.share .content .code{
+	text-align: center;
+	margin: 6% auto;
+	
+}
+.share .erweima{
+	position: relative;
+}
+.share .icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999999;
+    width: 3.2rem;
+    height: 3.2rem;
+    background: url('https://imagecdn.xinyongjinku.com/wechat/modules/images/logodl.png') no-repeat center;
+    background-size: cover;
+    border-radius: 5px;
+    
+    }
+.share .content .yq{
+	width: 13.76rem;
+	height:2.4rem;
+	border: 2px solid #938062;
+    border-radius: 10px;
+    margin: 2.5rem auto 0;
+    line-height: 2.4rem;
+    text-align: center;
+}
+.share .content .yq a{
+	color: #FFD89C;
+	font-size: 17px;
+}
+
+.share .foot span:nth-child(2){
+	font-size: 0.75rem;
+	color: #FFD89C;
+	letter-spacing: 0;
+}
+.share .foot{
+	margin: 45px auto;
+    width: 90%;
+}
+.share .foot p{
+	display: flex;
+	margin: 2rem;
+}
+.share .foot span{
+	flex: 1;
+	text-align: center;
+}
+.share .foot span:nth-child(2){
+	flex: 3;
+}
+.share .foot span img{
+    width: 100%;
+    height: 1px;
+    margin: 7px auto;
+    display: block;
+}
+.share .third{
+    display: flex;
+	text-align: center;
+    color: #FFD89C;
+    font-size: 1.2rem;
+}
+.share .third p{
+	width: 100%;
+	height: 100%;
+	flex: 1;
+	align-items: center;
+	justify-content: space-around;
+}
+.share .third p img{
+	width: 2rem;
+	height: 2rem;
+	display: block;
+	margin: 0px auto;
+}
+
+

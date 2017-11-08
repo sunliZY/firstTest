@@ -1,0 +1,123 @@
+.changeBank .tittle {
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.75rem;
+    color: red;
+    text-align: center;
+}
+
+.changeBank .conts {
+    width: 100%;
+    height: auto;
+    margin-top: 0
+;}
+
+.changeBank .conts ul {
+    width: 100%
+}
+
+.changeBank .conts ul li {
+    background: #FFF;
+    box-shadow: 0 -0.0625rem 0 0 #EDEDED, 0 0.0625rem 0 0 #EDEDED;
+    height: 2.5625rem;
+    line-height: 2.5625rem;
+    display: flex;
+    font-size: 0.75rem
+}
+
+.changeBank .conts ul li span {
+    width: 6.875rem;
+    height: 2.5625rem;
+    text-indent: 0.875rem
+}
+
+.changeBank .conts ul li input {
+    width: 10.9375rem;
+    height: 100%;
+    border: none;
+    outline: 0;
+    display: inline-block
+}
+
+.changeBank .conts ul li:nth-child(1) i {
+    width: 1.3rem;
+    height: 1.3rem;
+    background: #CC9F68;;
+    border-radius: 50%;
+    color:#FFFFFF;
+    line-height: 1.3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-left: 6rem;
+}
+
+.changeBank .conts ul li .huoyan {
+    width: 6.375rem;
+    color: #CC9F68;
+    display: inline-block;
+    background: 0 0;
+    border: none;
+    outline: 0;
+    text-align: center;
+    font-size: 0.75rem;
+    ;
+    margin: 0
+;}
+
+.changeBank .zhichikas {
+    text-align: center;
+    line-height: 2.5rem;
+    color: rgba(0, 0, 235, 0.6)
+}
+.changeBank h1{
+	margin-left: 1rem;
+}
+
+/*添加银行卡警告提示*/
+.changeBank .mBox{
+        display: none;
+	    position: fixed;
+	    left: 0;
+	    bottom: 0;
+	    zoom: 1;
+	    background: rgba(0, 0, 0, 0.1);
+	    z-index: 999;
+	    width:100%;
+	    height:100%;
+	   
+}
+
+.changeBank .mBox .xbox {
+    display: none;
+    width: 75%;
+    height: 8rem;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 11;
+    border-radius: 1rem;
+}
+
+.changeBank .mBox .xbox h2{
+	text-align: center;
+    height: 2.3rem;
+    line-height: 2.3rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+.changeBank .mBox .xbox p:nth-child(2){
+	line-height: 1.3rem;
+	text-align: center;
+	border-bottom: 1px solid #EEEEEE;
+	padding-bottom: 1rem;
+}
+.changeBank .mBox .xbox p:nth-child(3){
+	text-align: center;
+	color:#4898D5;
+	margin-top: 0.5rem;
+	
+}

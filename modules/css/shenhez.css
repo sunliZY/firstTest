@@ -1,0 +1,12 @@
+.shenhez, .shenhez .imgs img {
+    width: 100%
+}
+
+.shenhez .imgs {
+    width: 100%;
+    height: auto
+}
+
+.shenhez button {
+    margin: 0 auto
+}

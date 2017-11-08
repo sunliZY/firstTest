@@ -1,0 +1,65 @@
+.woyaohuankuan .tittle {
+    width: 100%;
+    height: 8.75rem;
+    text-align: center;
+    background: #fff;
+    border: 0.2px solid transparent;
+    box-sizing: border-box
+}
+.woyaohuankuan .tittle h1 {
+    font-size: 2.25rem;
+    color: #CC9F68;
+    padding-top: 2.5rem
+}
+.woyaohuankuan .tittle h2 {
+    font-size: 0.875rem;
+    color: #5C5C5C;
+    line-height: 0.75rem;
+    margin-top: 1.25rem
+}
+.woyaohuankuan .contss {
+    width: 100%;
+    height: auto;
+    padding-bottom: 3.125rem
+}
+.woyaohuankuan .contss .ones {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0.625rem;
+    margin-top: 0.625rem;
+    background: #FFF;
+    box-shadow: 0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.05);
+    display: flex
+}
+.woyaohuankuan .contss .ones div .red {
+    color: #FF4949 ;
+}
+.woyaohuankuan .contss .ones div p {
+    font-size: 0.875rem;
+    color: #5C5C5C;
+    margin-top: 0.75rem
+}
+.woyaohuankuan .contss .ones div:nth-child(1) {
+    width: 6.875rem;
+    height: 100%;
+    text-indent: 1.1875rem
+}
+.woyaohuankuan .contss .ones div:nth-child(2) {
+    width: 8.5625rem;
+    height: 100%
+}
+.woyaohuankuan .contss .ones div:nth-child(3) {
+    width: 8rem;
+    height: 100%
+}
+.woyaohuankuan .contss .ones div:nth-child(3) button {
+    width: 6.875rem;
+    padding:6px 0 19px 0;
+    margin:1.5rem auto;
+}
+.woyaohuankuan .contss .ones div:nth-child(3) button a {
+    font-size: 0.875rem
+}
+.woyaohuankuan .contss .ones div:nth-child(3) button i {
+    display: none
+}

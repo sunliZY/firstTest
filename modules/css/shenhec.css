@@ -1,0 +1,18 @@
+.shenhec .img {
+    width: 100%;
+    height: 11.25rem;
+    background: #fff;
+    border: 0.2px solid transparent
+}
+.shenhec .img img {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: 0 auto;
+    display: block
+}
+.shenhec .img p {
+    font-size: 0.21250000000000002rem;
+    color: #CC9F68;
+    text-align: center;
+    margin: 0.625rem auto
+}

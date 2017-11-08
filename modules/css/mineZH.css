@@ -1,0 +1,98 @@
+.zooms{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    border: 1px solid transparent;
+    box-sizing: border-box
+}
+.zooms .headers {
+    height: 8.75rem;
+    background: url("https://imagecdn.xinyongjinku.com/wechat/modules/images/gerenbeijing@v1.1.0.png") no-repeat center;
+    background-size: cover;
+    color: #fff;
+    font-size: 1.0625rem;
+}
+.zooms .headers div{
+    height: 2.1rem;
+    line-height: 2.5rem;
+    text-align: center;
+    display: flex;
+    color:#fff;
+}
+.zooms .headers div span{
+    flex:1;
+}
+.zooms .headers div span:nth-child(2){
+    flex:3;
+}
+
+.zooms .headers dl {
+	width: 100%;
+    height: auto;
+    text-align: center;
+    margin:1rem auto;
+    display:flex;
+}
+
+.zooms .headers dl dt{
+    width:4.1rem;
+    height:4.1rem;
+    display: block;
+    margin-left: 1rem;
+}
+.zooms .headers dl dt img  {
+    width:100%;
+    display: block;
+}
+.zooms .headers dl dd{
+    flex:1;
+}
+.zooms .headers dl dd p{
+    height:2.1rem;
+    line-height:3rem;
+    text-align: left;
+    text-indent: 1rem;
+    font-size: 1rem;
+}
+.zooms .headers dl dd p:nth-child(2){
+    line-height:2rem;
+}
+
+
+ .zooms ol {
+    width: 100%;
+    height: auto
+}
+.zooms ol li {
+    background: #FFF;
+    box-shadow: 0 -0.0625rem 0 0 #EDEDED, 0 0.0625rem 0 0 #EDEDED;
+    width: 100%;
+    height: 2.5625rem;
+    line-height: 2.5625rem;
+    display: flex;
+    font-size: 0.75rem
+}
+.zooms ol li span:nth-child(2) {
+    flex: 3;
+}
+.zooms ol li span img {
+    width: 1.125rem;
+    margin: 0.75rem 0.6875rem 0.6875rem 1.125rem
+}
+
+.zooms ol li:nth-child(3){
+    margin-bottom:1rem;
+}
+.zooms ol li:nth-child(3) span img{
+    width:1.3rem;
+}
+
+.zooms ol li.wechats span:nth-child(2){
+    flex:2;
+}
+.zooms ol li.wechats span:nth-child(3){
+    flex:1;
+}

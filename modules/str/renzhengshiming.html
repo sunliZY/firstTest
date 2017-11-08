@@ -1,0 +1,88 @@
+<div class="renzhengshiming">
+    <div class="head">
+        <header class="header">
+            <span class="back"><img src="https://imagecdn.xinyongjinku.com/wechat/modules/images/leftj.png" alt=""></span>
+            <span>实名认证</span>
+            <span></span>
+        </header>
+    </div>
+    <div class="nav">
+          <dl>
+          	<dt class="dt">1</dt>
+          	<dd class="dd1"><img src="https://imagecdn.xinyongjinku.com/wechat/modules/images/shi1@v1.1.4.png" alt="" /></dd>
+          	<dd class="shi1 dd2">实名认证</dd>
+          </dl>
+          <dl>
+          	<dt class="dt1">2</dt>
+          	<dd class="dd1"><img src="https://imagecdn.xinyongjinku.com/wechat/modules/images/ren1@v1.1.4.png" alt="" /></dd>
+          	<dd class="dd2 d2">个人信息</dd>
+          </dl>
+          <dl>
+          	<dt class="dt1">3</dt>
+          	<dd class="dd1"><img src="https://imagecdn.xinyongjinku.com/wechat/modules/images/shou@v1.1.4.png" alt="" /></dd>
+          	<dd class="dd2 d2">手机认证</dd>
+          </dl>
+    </div>
+    <div class="shenfen">
+        <dl>
+            <dt>
+            <p>身份证照</p>
+            <span>人像面</span>
+            </dt>
+            <dd>
+                <img src="https://imagecdn.xinyongjinku.com/wechat/modules/images/rens1.png" alt="">
+                <img class="right-img1" src="https://imagecdn.xinyongjinku.com/wechat/modules/images/right.png" alt="">
+                <input type="file" name="filename" class="file1" accept="image/*">
+            </dd>
+        </dl>
+        <p class="doubleCheck">身份证照片需要是您本人，清晰且完整</p>
+        <dl>
+            <dt>
+            <p>身份证照</p>
+            <span>国徽面</span>
+            </dt>
+            <dd>
+                <img src="https://imagecdn.xinyongjinku.com/wechat/modules/images/res.png" alt="">
+                <img class="right-img2" src="https://imagecdn.xinyongjinku.com/wechat/modules/images/right.png" alt="">
+                <input type="file" name="filename" class="file2" accept="image/*">
+            </dd>
+        </dl>
+        <p class="doubleCheck">请确保您的身份证清晰可见，不要重叠遮挡</p>
+        <div class="p">
+            <p><span>您的姓名</span><input type="text" placeholder="扫描身份证面或输入姓名" class="xingming"></p>
+            <p><span>身份证号</span><input type="text" placeholder="扫描身份证正面或输入身份证号" onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');" class="shenfens"></p>
+        </div>
+        <p class="doubleCheck">请再次确认您的姓名及身份证号码是否正确</p>
+        <div class="renlian">
+            <dl>
+                <dt>
+                <p>人脸识别</p>
+                </dt>
+                <dd>
+                    <img src="https://imagecdn.xinyongjinku.com/wechat/modules/images/rl.png" alt="">
+                    <img class="right-img3" src="https://imagecdn.xinyongjinku.com/wechat/modules/images/right.png" alt="">
+                    <input type="file" name="filename" class="file3" accept="image/*">
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+     <!--弹框提示-->
+        <div class="mBox">
+	        <div class="xbox"> 
+	          <p><!--<img src="modules/images/confirmation@v1.1.4.png" alt="" />--></p>
+	          <ul >
+	        	<li><span>姓</span><span>名:</span><span class="name"></span><i></i></li>
+	            <li><span>身份证号:</span><span class="idcard"></span><i></i></li>
+	            
+	        </ul> 
+	        <h3>信息一旦提交无法改变，请务必确认。</h3>
+	        <ol>
+	            <li class="go_change">有误，去修改</li>
+	            <li class="go_next">正确，下一步</li>
+	        </ol>
+	        </div>
+        </div>
+   
+     <button class="gogeren">下一步</button>
+</div>

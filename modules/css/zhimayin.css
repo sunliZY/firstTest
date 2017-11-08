@@ -1,0 +1,16 @@
+.zhimayin .img {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 0.125rem 0 0 #EDEDED
+}
+.zhimayin .img img {
+    width: 100%;
+    display: block;
+    margin: 0 auto
+}
+.zhimayin .img p {
+    text-align: center;
+    color: #c99959;
+    padding: 1.875rem 0 0.625rem
+}

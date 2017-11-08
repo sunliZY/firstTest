@@ -1,0 +1,660 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background: #fafafa;
+}
+
+body .main, html .main {
+    width: 100%;
+    height: 100%
+}
+
+.head {
+    width: 100%;
+    height: 3.0625rem;
+    background: linear-gradient(34deg, #9B764C 0, #E3B764 100%);
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.head .header {
+    display: flex;
+    width: 100%;
+    height: 3.0625rem;
+    line-height: 3.0625rem;
+}
+
+.head .header a {
+    color: #fff
+}
+.head .header span {
+    flex: 1;
+    text-align: center;
+    font-size: 1.0625rem;
+    letter-spacing: 0.088125rem;
+    color: #fff
+}
+ .head .header span i span{
+	padding: 2px;
+    font-weight: bold;	
+}
+ .head .header span:nth-child(1) img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.9rem;
+}
+.head .header span:nth-child(2) {
+    flex: 5;
+}
+.head .header .useRule{
+    display: none;
+}
+/*header的另一套样式*/
+.head .rules{
+    display: flex;
+    width: 100%;
+    height: 3.0625rem;
+    line-height: 3.0625rem;
+}
+.head .rules span:nth-child(1){
+    padding-left:0.8rem;
+    flex: 1;
+}
+.head .rules span:nth-child(2){
+    flex: 6;
+    padding-left:24%;
+}
+.head .rules span:nth-child(3){
+    flex: 1;
+}
+.head .rules span:nth-child(4){
+    flex: 4;
+    display: block;
+    font-size: 0.85rem;
+}
+
+.tem p {
+    margin-top: 0.5rem;
+}
+
+.nav{
+    height:6.5rem;
+}
+/*.main .head .header span:nth-child(3) {
+    font-size: 0.875rem
+}*/
+.main .tem{
+    width:100%;
+    padding:10px 0 4rem 0;
+}
+.main .tem p {
+    line-height: 0.75rem;
+    text-indent: 1.125rem;
+    font-size: 0.75rem;
+    color: #CC9F68
+;}
+
+.main button {
+    width: 17.5rem;
+    padding:10px 0 24px 0;
+    text-align: center;
+    border: none;
+    outline: 0;
+    background: url("https://imagecdn.xinyongjinku.com/wechat/modules/images/jiekuan_button@v1.1.1.png") center no-repeat;
+    background-size: cover;
+    display: block;
+    font-size: 1.125rem;
+    color: #fff;
+    box-sizing: border-box;
+    margin:1rem auto 0;
+
+}
+
+.main button a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    color: #FFF;
+    font-size: 1.125rem
+}
+
+.main .button {
+    width: 100%;
+    margin-top: 1.25rem;
+    border: 0.01px solid transparent;
+    box-sizing: border-box
+}
+
+.main input{
+    color: #CC9F68;
+    text-shadow: 0px 0px 0px rgba(141, 141, 141, 0.54);
+    -webkit-text-fill-color: transparent;
+}
+
+.donghua {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    left:0;
+    z-index: 110;
+    display: none;
+    position: fixed;
+}
+
+.donghua .loading {
+    width: 3.75rem;
+    height: 3.75rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -1.25rem;
+    animation: mymove 1s cubic-bezier(0.96, 0.96, 0.04, 0.04) infinite
+}
+
+.donghua .loading .i0, .donghua .loading .s0 {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%;
+    position: absolute
+}
+
+.donghua .loading .s0, .donghua .loading .s1, .donghua .loading .s10, .donghua .loading .s2, .donghua .loading .s3, .donghua .loading .s4, .donghua .loading .s6, .donghua .loading .s7, .donghua .loading .s8, .donghua .loading .s9 {
+    background-image: linear-gradient(34deg, #9B764C 0, #E3B764 100%);
+    margin: -0.4375rem
+}
+
+.donghua .loading .i0 {
+    left: 0;
+    top: 0;
+    transform: rotate(0deg);
+    transform-origin: 1.875rem 1.875rem
+}
+
+.donghua .loading .s0 {
+    border: 0.0625rem solid transparent;
+    left: 50%;
+    top: 50%;
+    transform: scale(0)
+}
+
+.donghua .loading .i1, .donghua .loading .s1 {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%
+}
+
+.donghua .loading .i1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(36deg);
+    transform-origin: 1.875rem 1.875rem
+}
+
+.donghua .loading .s1 {
+    border: 0.0625rem solid transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: scale(0.1)
+}
+
+.donghua .loading .i2, .donghua .loading .s2 {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%;
+    position: absolute
+}
+
+.donghua .loading .i2 {
+    left: 0;
+    top: 0;
+    transform: rotate(72deg);
+    transform-origin: 1.875rem 1.875rem
+}
+
+.donghua .loading .s2 {
+    border: 0.0625rem solid transparent;
+    left: 50%;
+    top: 50%;
+    transform: scale(0.2)
+}
+
+.donghua .loading .i3, .donghua .loading .s3 {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%
+}
+
+.donghua .loading .i3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(108deg);
+    transform-origin: 1.875rem 1.875rem
+}
+
+.donghua .loading .s3 {
+    border: 0.0625rem solid transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: scale(0.3)
+}
+
+.donghua .loading .i4, .donghua .loading .s4 {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%;
+    position: absolute
+}
+
+.donghua .loading .i4 {
+    left: 0;
+    top: 0;
+    transform: rotate(144deg);
+    transform-origin: 1.875rem 1.875rem
+}
+
+.donghua .loading .s4 {
+    border: 0.0625rem solid transparent;
+    left: 50%;
+    top: 50%;
+    transform: scale(0.4)
+}
+
+.donghua .loading .i5, .donghua .loading .s5 {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%
+}
+
+.donghua .loading .i5 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(180deg);
+    transform-origin: 1.875rem 1.875rem
+}
+
+.donghua .loading .s5 {
+    background-image: linear-gradient(34deg, #9B764C 0, #E3B764 100%);
+    border: 1px solid transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -0.4375rem;
+    transform: scale(0.5)
+}
+
+.donghua .loading .i6, .donghua .loading .s6 {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%;
+    position: absolute
+}
+
+.donghua .loading .i6 {
+    left: 0;
+    top: 0;
+    transform: rotate(216deg);
+    transform-origin: 1.875rem 1.875rem
+}
+
+.donghua .loading .s6 {
+    border: 0.0625rem solid transparent;
+    left: 50%;
+    top: 50%;
+    transform: scale(0.6)
+}
+
+.donghua .loading .i7, .donghua .loading .s7 {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%
+}
+
+.donghua .loading .i7 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(252deg);
+    transform-origin: 1.875rem 1.875rem
+}
+
+.donghua .loading .s7 {
+    border: 0.0625rem solid transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: scale(0.7)
+}
+
+.donghua .loading .i8, .donghua .loading .s8 {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%;
+    position: absolute
+}
+
+.donghua .loading .i8 {
+    left: 0;
+    top: 0;
+    transform: rotate(288deg);
+    transform-origin: 1.875rem 1.875rem
+}
+
+.donghua .loading .s8 {
+    border: 0.0625rem solid transparent;
+    left: 50%;
+    top: 50%;
+    transform: scale(0.8)
+}
+
+.donghua .loading .i9, .donghua .loading .s9 {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%
+}
+
+.donghua .loading .i9 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(324deg);
+    transform-origin: 1.875rem 1.875rem
+}
+
+.donghua .loading .s9 {
+    border: 0.0625rem solid transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: scale(0.9)
+}
+
+.donghua .loading .i10, .donghua .loading .s10 {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%;
+    position: absolute
+}
+
+.donghua .loading .i10 {
+    left: 0;
+    top: 0;
+    transform: rotate(360deg);
+    transform-origin: 1.875rem 1.875rem
+}
+
+.donghua .loading .s10 {
+    border: 0.0625rem solid transparent;
+    left: 50%;
+    top: 50%;
+    transform: scale(1)
+}
+
+.donghua .tishi {
+    text-align: center;
+    width:8.75rem;
+    line-height: 9.375rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -3.625rem;
+    font-size: 0.875rem;
+    color: rgba(216, 161, 94,0.66)
+}
+
+@keyframes mymove {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.xieyis, .zhucexieyi {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff
+}
+
+
+.inp {
+    width: 100%;
+    height: 3.125rem;
+}
+
+.inp div {
+    width: 75%;
+    height: 3.125rem;
+    border-bottom: 0.1rem solid rgba(216,216,216,0.78);
+    margin: 0 auto
+}
+
+.inp div input {
+    border: none;
+    width: 76%;
+    background: 0 0;
+    height: 54%;
+    font-size: 0.75rem;
+    text-indent: 0.25rem;
+    line-height: 1.125rem;
+    outline: 0 ;
+    margin-top:1rem;
+}
+.inp div span {
+    width: 1.8125rem;
+    height: 1.75rem
+}
+.inp div span img {
+    width: 1.8125rem;
+    height: 1.75rem;
+    margin-bottom: -0.625rem
+}
+.footers {
+    width: 100%;
+    height: 3.2rem;
+    display: flex;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 50;
+    box-shadow: 0 -0.125rem 0.0625rem rgba(0, 0, 0, 0.12);
+    background: #fff
+}
+.footers a {
+    flex: 1;
+    font-size: 0.625rem;
+}
+
+.footers a span {
+    color: #B3B3B3
+}
+.footers .clicked span {
+    color: #CC9F68
+}
+.footers a p {
+    width: 1.625rem;
+    height: 1.625rem;
+    margin: 0.25rem auto
+}
+
+/*认证样式*/
+ .nav{
+   display: flex;
+}
+ .nav dl{
+	flex: 1; 
+	text-align: center;
+}
+.nav dl .dt1{
+	width: 1.1rem;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	border-radius: 50%;
+	background:#CACACA;
+	color: #FFFFFF;
+	margin: 0.4rem auto;
+}
+ .nav dl .dt{
+ 	width: 1.1rem;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	border-radius: 50%;
+	background: #CC9F68;
+	color: #FFFFFF;
+	margin: 0.4rem auto;
+	
+}
+ .nav dl .dd1{
+ 	width: 2.7rem;
+	height: 2.7rem;
+	margin: 0 auto;
+ }
+ .nav dl .dd1 img{
+	width: 100%;
+}
+ .nav .shi1{
+	color: #CC9F68;
+}
+.nav .d2{
+	color: #CACACA;
+}
+.nav .dd2{
+	height: 0.3rem;
+	margin: 0.3rem auto;
+}
+ .nav dl dd{
+ 	font-size: 0.75rem;
+ }
+h1 {
+    height: 3.125rem;
+    line-height: 2.5rem;
+    margin-left: 3rem;
+}
+
+h1 em {
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    background: url('https://imagecdn.xinyongjinku.com/wechat/modules/images/dan.png') center no-repeat;
+    background-size: cover;
+    margin: 0 0.3125rem -0.0625rem 0
+;}
+
+.check em {
+    background: url('https://imagecdn.xinyongjinku.com/wechat/modules/images/danz.png') center no-repeat;
+    background-size: cover
+}
+
+.check i {
+    color: #00f
+}
+
+.pbox{
+        display: none;
+	    position: fixed;
+	    left: 0;
+	    bottom: 0;
+	    background: rgba(0, 0, 0, 0.6);
+	    z-index: 10;
+	    width:100%;
+	    height:100%;	   
+}
+.pbox .pboxx {
+    padding: 0.7rem;
+    /*width: 70%;*/
+    width: 15rem;
+    height: 9rem;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1rem;
+    line-height: 2rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.pbox .pboxx div{
+    text-align: center;
+    width: 100%;
+    height: 6rem;
+    line-height: 2rem;
+}
+.pbox .pboxx p{
+    letter-spacing: 7px;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    color: dodgerblue;	
+    height: 1.3rem;
+    line-height: 2.3rem;
+    margin-top: 1rem;
+    font-size: 15px;
+}
+.outbox{
+    display: none;
+    background: rgba(0,0,0,0.40);
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.outbox .inbox{
+    padding: 0.7rem;
+    width: 15rem;
+    height: 9rem;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1rem;
+    line-height: 2rem;
+    font-weight: bold;
+    color: #5C5C5C;
+    text-align: center;
+}
+.outbox .inbox p{
+    height: 3rem;
+    margin-bottom: 2.8rem;
+    padding-top: 1rem;
+    font-size: 0.75rem;
+    width: 100%;
+}
+
+.outbox .inbox ol{
+    display: flex;
+    margin-top: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-top: 1px solid #B3B3B3;
+    font-size: 0.8rem;
+}
+.outbox .inbox ol li{
+    flex: 1;
+}
+.outbox .inbox ol li:nth-child(1){
+    border-right:1px solid #B3B3B3;
+}
+.outbox .inbox ol li:nth-child(2){
+    color: #CA9353;
+}
+   
+
